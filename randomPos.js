@@ -1,6 +1,6 @@
 function randomPos(arr) {
   const maxPos = arr.length;
-  let pos = Math.floor(Math.random() * maxPos);
+  const pos = Math.floor(Math.random() * maxPos);
   return pos;
 }
 
